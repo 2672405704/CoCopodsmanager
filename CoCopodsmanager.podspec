@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "CoCopodsmanager"
-  s.version      = "0.0.1"
+  s.version      = "1.0.2"
   s.summary      = "first cocopods CoCopodsmanager."
 
   
@@ -31,9 +31,9 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/2672405704/CoCopodsmanager.git", :tag => "1.0.0" }
 
-
+ s.platform     = :ios, '9.0'
   
-  s.source_files  = "CoCopodsmanager", "CoCopodsmanager/FrameworkDemoF.framework/*.{h,m}"
+  s.source_files  = "managerTool"
 
 
   
