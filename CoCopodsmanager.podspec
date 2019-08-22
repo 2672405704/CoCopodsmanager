@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-    Help developer to quickly intergrate variety of payment methods
+Help developer to quickly intergrate variety of payment methods
                    DESC
 
   spec.homepage     = "https://github.com/2672405704/CoCopodsmanager"
@@ -91,8 +91,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "CoCopodsmanager/*.h"
-  
+  spec.source_files  = "Managerpods", "Managerpods/AES/*.{h,m}"
+
 
   # spec.public_header_files = "Classes/**/*.h"
 
